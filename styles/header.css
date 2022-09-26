@@ -45,3 +45,36 @@
     background: none;
     border: none;
 }
+
+@media screen and (min-width: 481px) { /*TABLET*/
+    .header{
+        position: relative;
+        display: flex;
+    }
+
+    .header-logo{
+        position: absolute;
+        left: 16px;
+    }
+
+    .header-btnLogin{
+        position: absolute;
+        right: 16px;
+    }
+
+    .header-input{
+        position: absolute;
+        right: 33%;
+
+        border: none;
+        border-radius: 20px;
+        background: var(--cor-branco-palido);
+        padding: 8px;
+        width: 40%;
+    }
+
+    .header-btnSearch{
+        position: absolute;
+        right: 35%;
+    }
+}

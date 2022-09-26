@@ -1,23 +1,64 @@
 @import url(./header.css);
 @import url(./banner.css);
 
-:root{
-    --cor-branco: #FFFFFF;
+:root {
     --cor-preto: #000000;
-    --cor-azul-default: #2A7AE4;    
+    --cor-branco: #FFFFFF;
+    --cor-branco-palido: #F5F5F5;
     --cor-azul-baby: #EAF2FD;
     --cor-cinza-default: #464646;
+    --cor-azul-default: #2A7AE4;
 
     --fonte-default: 'Raleway';
 }
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     font-family: var(--fonte-default), sans-serif;
 }
 
-body{
+body {
     margin: 0;
     font-size: 16px;
+}
+
+.mobile{
+    display: block;
+}
+
+.desktop {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+@media screen and (min-width: 481px) {
+    .mobile{
+        display: none;
+    }
+    
+    .desktop {
+        display: none;
+    }
+    
+    .tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1279px) {
+    .mobile{
+        display: none;
+    }
+    
+    .desktop {
+        display: block;
+    }
+    
+    .tablet {
+        display: none;
+    }
 }
