@@ -17,7 +17,7 @@
     font-weight: 700;
     color: var(--cor-branco);
     font-size: 22px;
-    margin: 0 0 8px 0;
+    margin-bottom: 8px;
 }
 
 .banner-content p{
@@ -25,7 +25,7 @@
     color: var(--cor-branco);
     font-size: 14px;
     margin: 0;
-    margin: 0 0 8px 0;
+    margin-bottom: 8px;
 }
 
 .banner-content button{
@@ -39,4 +39,22 @@
 }
 
 @media screen and (min-width: 481px) { /*TABLET*/
+    .banner{
+        height: 350px;
+    }
+
+    .banner-content{
+        margin: 0 0 32px 32px;
+    }
+
+    .banner-content h2{
+        font-size: 52px;
+        margin-bottom: 16px;
+    }
+
+    .banner-content p{
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
 }
