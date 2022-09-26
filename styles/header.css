@@ -1,0 +1,47 @@
+.header{
+    background-color: var(--cor-branco);
+    height: 72px;
+    padding: 16px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    /* display: flex; */
+}
+
+.header-logo img{
+    width: 23px;
+    height: 17px;
+}
+
+.header-title{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.header-title span{
+    color: var(--cor-azul-default);
+}
+
+.header-btnLogin{
+    width: 130px;
+    height: 40px;
+    background: var(--cor-branco);
+    border: 1px solid var(--cor-azul-default);
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-azul-default);
+}
+
+.header-btnSearch{
+    background: none;
+    border: none;
+}

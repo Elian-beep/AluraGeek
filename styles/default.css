@@ -1,0 +1,22 @@
+@import url(./header.css);
+
+:root{
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --cor-azul-default: #2A7AE4;    
+    --cor-azul-baby: #EAF2FD;
+    --cor-cinza-default: #464646;
+
+    --fonte-default: 'Raleway';
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: var(--fonte-default), sans-serif;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+}
