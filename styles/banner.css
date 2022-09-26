@@ -58,3 +58,9 @@
         margin-bottom: 16px;
     }
 }
+
+@media screen and (min-width: 1200px){
+    .banner-content{
+        margin: 0 150px 32px 150px;
+    }
+}
