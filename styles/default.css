@@ -7,6 +7,7 @@
     --cor-branco-palido: #F5F5F5;
     --cor-azul-baby: #EAF2FD;
     --cor-cinza-default: #464646;
+    --cor-cinza-baby: #A2A2A2;
     --cor-azul-default: #2A7AE4;
 
     --fonte-default: 'Raleway';
@@ -23,42 +24,8 @@ body {
     font-size: 16px;
 }
 
-.mobile{
-    display: block;
-}
-
-.desktop {
-    display: none;
-}
-
-.tablet {
-    display: none;
-}
-
 @media screen and (min-width: 481px) {
-    .mobile{
-        display: none;
-    }
-    
-    .desktop {
-        display: none;
-    }
-    
-    .tablet {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 769px) {
-    .mobile{
-        display: none;
-    }
-    
-    .desktop {
-        display: block;
-    }
-    
-    .tablet {
-        display: none;
-    }
 }
