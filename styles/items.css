@@ -82,6 +82,10 @@
 }
 
 @media screen and (min-width: 990px){
+    .main-content{
+        margin: auto 150px;
+    }
+
     .item-bonus{
         display: flex;
     }
