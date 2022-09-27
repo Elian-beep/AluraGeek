@@ -70,3 +70,19 @@
 .item-bonus{
     display: none;
 }
+
+@media screen and (min-width: 481px){
+    .main-content{
+        margin: auto 30px;
+    }
+
+    .item button{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 990px){
+    .item-bonus{
+        display: flex;
+    }
+}

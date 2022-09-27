@@ -58,12 +58,12 @@
 
     .header-logo{
         position: absolute;
-        left: 16px;
+        left: 20px;
     }
 
     .header-btnLogin{
         position: absolute;
-        right: 16px;
+        right: 20px;
     }
 
     .header-input{
