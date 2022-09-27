@@ -164,3 +164,30 @@
     }
 
 }
+
+@media screen and (min-width: 1150px){
+    .fo-contact{
+        display: flex;
+        justify-content: space-between;
+        padding: 64px 0;
+    }
+
+    .contact-links{
+        margin-left: 156px;
+        margin-right: 112px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-bottom: 0;
+    }
+
+    .contact-items li:nth-of-type(1){
+        margin-top: 0;
+    }
+
+    .contact-form{
+        margin-right: 156px;
+    }
+}
