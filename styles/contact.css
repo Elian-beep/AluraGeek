@@ -1,67 +1,68 @@
-.fo-contact{
+.fo-contact {
     padding: 16px;
     background-color: var(--cor-azul-baby);
 }
 
-.contact-links{
+.contact-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.logo{
+.logo {
     display: flex;
     gap: 6px;
 }
 
-.logo-img{
+.logo-img {
     width: 40px;
     height: 30px;
 }
 
-.logo-title{
+.logo-title {
     margin: 0;
     font-size: 18px;
     font-weight: 700;
     display: inline-block;
 }
 
-.logo-title span{
+.logo-title span {
     color: var(--cor-azul-default);
 }
 
-.contact-items{
+.contact-items {
     list-style-type: none;
     text-align: center;
     margin: 0;
 }
 
-.contact-items li{
+.contact-items li {
     margin-top: 16px;
 }
 
-.contact-items li a{
+.contact-items li a {
     font-weight: 500;
     text-decoration: none;
     color: var(--cor-cinza-default);
 }
-.contact-form{
+
+.contact-form {
     margin-top: 32px;
 }
 
-.contact-form h3{
+.contact-form h3 {
     margin: 0 0 4px 0;
 }
 
 /* --------------- */
-.contact-form form{
+.contact-form form {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.inpt-label{
+.inpt-label {
     font-size: 12px;
     font-weight: 400;
     color: var(--cor-cinza-baby);
@@ -72,7 +73,7 @@
     border-radius: 4px;
 }
 
-.inpt-nome{
+.inpt-nome {
     margin-bottom: 16px;
     height: 35px;
     border: none;
@@ -80,13 +81,13 @@
     border-radius: 4px;
     padding-left: 12px;
     outline: none;
-    
+
     font-size: 16px;
     color: var(--cor-cinza-default);
     font-weight: 400;
 }
 
-.inpt-msm{
+.inpt-msm {
     margin-bottom: 16px;
     height: 82px;
     border: none;
@@ -97,13 +98,13 @@
     outline: none;
 }
 
-.inpt-msm::placeholder{
+.inpt-msm::placeholder {
     font-size: 16px;
     font-weight: 400;
     color: var(--cor-cinza-baby);
 }
 
-.inpt-btn{
+.inpt-btn {
     border: none;
     background: var(--cor-azul-default);
     width: 151px;
@@ -115,79 +116,92 @@
     font-size: 14px;
 }
 
-@media screen and (min-width: 481px){
-    .fo-contact{
+.footer-dev {
+    height: 100px;
+    padding: 16px;
+}
+
+.footer-dev p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-cinza-default);
+}
+
+@media screen and (min-width: 481px) {
+    .fo-contact {
         display: flex;
         justify-content: space-between;
         padding: 32px;
     }
 
-    .contact-links{
+    .contact-links {
         justify-content: left;
         align-items: flex-start;
         width: 50%;
     }
 
-    .contact-items{
+    .contact-items {
         text-align: left;
     }
 
-    .logo-title{
+    .logo-title {
         font-size: 22px;
     }
 
     /* ---------------- */
 
-    .contact-form{
+    .contact-form {
         width: 50%;
         margin: 0;
     }
 
-    .contact-form h3{
+    .contact-form h3 {
         font-weight: 700;
         font-size: 16px;
     }
 
-    .contact-form form{
+    .contact-form form {
         justify-content: left;
         align-items: flex-start;
     }
 
-    .inpt-nome{
+    .inpt-nome {
         width: 100%;
         height: 40px;
     }
 
-    .inpt-msm{
+    .inpt-msm {
         width: 100%;
         height: 82px;
     }
 
 }
 
-@media screen and (min-width: 1150px){
-    .fo-contact{
+@media screen and (min-width: 1150px) {
+    .fo-contact {
         display: flex;
         justify-content: space-between;
         padding: 64px 0;
     }
 
-    .contact-links{
+    .contact-links {
         margin-left: 156px;
         margin-right: 112px;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .logo{
+    .logo {
         margin-bottom: 0;
     }
 
-    .contact-items li:nth-of-type(1){
+    .contact-items li:nth-of-type(1) {
         margin-top: 0;
     }
 
-    .contact-form{
+    .contact-form {
         margin-right: 156px;
     }
 }
