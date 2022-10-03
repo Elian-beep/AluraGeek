@@ -40,3 +40,9 @@
     font-size: 14px;
     color: var(--cor-branco);
 }
+
+@media screen and (min-width: 481px){
+    .inpt{
+        width: 60%;
+    }
+}
