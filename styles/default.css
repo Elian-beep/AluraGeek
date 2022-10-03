@@ -1,8 +1,3 @@
-@import url(./header.css);
-@import url(./banner.css);
-@import url(./items.css);
-@import url(./contact.css);
-
 :root {
     --cor-preto: #000000;
     --cor-branco: #FFFFFF;

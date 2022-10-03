@@ -35,10 +35,15 @@
     height: 40px;
     background: var(--cor-branco);
     border: 1px solid var(--cor-azul-default);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 
     font-size: 14px;
     font-weight: 600;
     color: var(--cor-azul-default);
+    text-align: center;
 }
 
 .header-input{
