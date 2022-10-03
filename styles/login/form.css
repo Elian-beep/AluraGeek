@@ -1,0 +1,42 @@
+.content {
+    padding: 80px 40px 60px 40px;
+    background: var(--cor-branco-palido);
+}
+
+.content-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.form-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.inpt {
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-cinza-baby);
+    padding-left: 12px;
+}
+
+.form-inptBtn {
+    width: 109px;
+    height: 40px;
+    border: none;
+    background: var(--cor-azul-default);
+
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-branco);
+}
