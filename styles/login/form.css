@@ -22,7 +22,8 @@
     border-radius: 4px;
     border: none;
     border-bottom: 1px solid #C8C8C8;
-
+    outline: none;
+    
     font-weight: 400;
     font-size: 16px;
     color: var(--cor-cinza-baby);

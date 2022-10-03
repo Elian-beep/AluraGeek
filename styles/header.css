@@ -1,7 +1,7 @@
 .header{
     background-color: var(--cor-branco);
-    height: 72px;
-    padding: 16px 20px;
+    /* height: 72px; */
+    padding: 20px 20px;
 }
 
 .header-container{
