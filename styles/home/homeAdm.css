@@ -1,0 +1,15 @@
+body{
+    background: var(--cor-branco-palido);
+}
+
+.btn-newItem{
+    border: none;
+    background: var(--cor-azul-default);
+    height: 40px;
+    padding: 12px 16px;
+
+    color: var(--cor-branco);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 16px;
+}

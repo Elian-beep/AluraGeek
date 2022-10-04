@@ -61,6 +61,10 @@
         display: flex;
     }
 
+    .header-container{
+        margin: 16px auto;
+    }
+
     .header-logo{
         position: absolute;
         left: 20px;
