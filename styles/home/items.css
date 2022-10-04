@@ -2,10 +2,6 @@
     margin: auto 20px;
 }
 
-.area-items{
-
-}
-
 .items-header{
     display: flex;
     align-items: center;
@@ -16,6 +12,7 @@
     font-weight: 700;
     font-size: 22px;
     color: var(--cor-cinza-default);
+    margin: 0;
 }
 
 .btn-seeAll{

@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: bottom;
     height: 192px;
+    margin-bottom: 64px;
 
     position: relative;
 }
