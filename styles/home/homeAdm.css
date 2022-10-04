@@ -2,12 +2,19 @@ body{
     background: var(--cor-branco-palido);
 }
 
+
 .items-header{
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
     margin: 16px auto;
     gap: 16px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .btn-newItem{
@@ -22,7 +29,12 @@ body{
 }
 
 .item-bonus{
-    display: block;
+    display: flex;
+}
+
+.item img{
+    width: 156px;
+    height: 174px;
 }
 
 @media screen and (min-width: 481px){
