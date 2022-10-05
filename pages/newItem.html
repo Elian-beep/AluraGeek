@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/defaultHome.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/newItem/newItem.css">
+
+    <title>Login | AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="../assets/barraNavegacao/joystick.svg" alt="Logo AluraGeek">
+                <p class="header-title"><span>Alura</span>Geek</p>
+            </div>
+
+            <a href="./homeAdm.html" class="btn-linkAdm">Menu administrador</a>
+
+            <input type="text" placeholder="O que deseja encontrar?" class="header-input desktop tablet mobile">
+            <button class="header-btnSearch">
+                <img src="../assets/barraNavegacao/lupa.svg" alt="Icone de lupa">
+            </button>
+        </div>
+    </header>
+
+    <main class="ni-content">
+        <form action="./homeAdm.html" class="ni-content-form">
+            <h2 class="ni-form-title">Adicionar novo produto</h2>
+
+            <div class="ni-area-input">
+                <label for="" class="ni-label">URL da imagem</label>
+                <input class="ni-inpt" type="text">
+            </div>
+
+            <div class="ni-area-input">
+                <label for="" class="ni-label">Categoria</label>
+                <input class="ni-inpt" type="text" value="Consoles">
+            </div>
+
+            <div class="ni-area-input">
+                <label for="" class="ni-label">Nome do produto</label>
+                <input class="ni-inpt" type="text" value="Produto XYZ">
+            </div>
+
+            <div class="ni-area-input">
+                <label for="" class="ni-label">Preço do produto</label>
+                <input class="ni-inpt" type="text" value="R$ 60,00">
+            </div>
+
+            <div class="ni-area-input ni-textarea">
+                <label for="" class="ni-label">Descrição do produto</label>
+                <textarea class="ni-inpt"></textarea>
+            </div>
+
+            <input type="submit" class="ni-form-inptBtn" value="Adicionar produto">
+        </form>
+    </main>
+
+    <footer class="footer">
+
+        <section class="fo-contact">
+            <div class="contact-links">
+                <div class="logo">
+                    <img src="../assets/barraNavegacao/joystick.svg" alt="Logo AluraGeek">
+                    <p class="logo-title"><span>Alura</span>Geek</p>
+                </div>
+                <ul class="contact-items">
+                    <li><a href="">Quem somos nós</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                    <li><a href="">Programa fidelidade</a></li>
+                    <li><a href="">Nossas lojas</a></li>
+                    <li><a href="">Quero ser franqueado</a></li>
+                    <li><a href="">Anuncie aqui</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-form">
+                <h3>Fale conosco</h3>
+                <form>
+                    <label class="inpt-label" for="nome">Nome</label>
+                    <input class="inpt-nome" type="text" id="nome">
+                    <textarea class="inpt-msm" placeholder="Escreva sua mensagem" ></textarea>
+                    <input class="inpt-btn" type="submit" value="Enviar mensagem">
+                </form>
+            </div>
+        </section>
+
+        <section class="footer-dev">
+            <p>Desenvolvido por Elian Batista</p>
+            <p>2022</p>
+        </section>
+
+    </footer>
+</body>
+</html>
