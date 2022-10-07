@@ -1,0 +1,41 @@
+.area-produtoDesc {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.produtoDesc-img {
+    width: 100vw;
+}
+
+.produtoDesc-desc {
+    padding: 16px;
+}
+
+.produtoDesc-title,
+.produtoDesc-preco,
+.produtoDesc-text {
+    margin: 0;
+    font-weight: 400;
+}
+
+.produtoDesc-title {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: var(--cor-cinza-default);
+}
+
+.produtoDesc-preco {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: var(--cor-cinza-default);
+}
+
+.produtoDesc-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--cor-cinza-default);
+    text-align: justify;
+}

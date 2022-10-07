@@ -1,36 +1,36 @@
-.header{
+.header {
     background-color: var(--cor-branco);
     /* height: 72px; */
     padding: 20px 20px;
 }
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-logo{
+.header-logo {
     /* display: flex; */
 }
 
-.header-logo img{
+.header-logo img {
     width: 23px;
     height: 17px;
 }
 
-.header-title{
+.header-title {
     margin: 0;
     font-size: 18px;
     font-weight: 700;
     display: inline-block;
 }
 
-.header-title span{
+.header-title span {
     color: var(--cor-azul-default);
 }
 
-.header-btnLogin{
+.header-btnLogin {
     width: 130px;
     height: 40px;
     background: var(--cor-branco);
@@ -46,36 +46,38 @@
     text-align: center;
 }
 
-.header-input{
+.header-input {
     display: none;
 }
 
-.header-btnSearch{
+.header-btnSearch {
     background: none;
     border: none;
 }
 
-@media screen and (min-width: 481px) { /*TABLET*/
-    .header{
+@media screen and (min-width: 481px) {
+
+    /*TABLET*/
+    .header {
         position: relative;
         display: flex;
     }
 
-    .header-container{
+    .header-container {
         margin: 16px auto;
     }
 
-    .header-logo{
+    .header-logo {
         position: absolute;
         left: 20px;
     }
 
-    .header-btnLogin{
+    .header-btnLogin {
         position: absolute;
         right: 20px;
     }
 
-    .header-input{
+    .header-input {
         position: absolute;
         right: 33%;
         display: block;
@@ -91,28 +93,28 @@
         color: var(cor-cinza-baby);
     }
 
-    .header-btnSearch{
+    .header-btnSearch {
         position: absolute;
         right: 35%;
     }
 }
 
-@media screen and (min-width: 1150px){
-    .header{
+@media screen and (min-width: 1150px) {
+    .header {
         position: relative;
     }
 
-    .header-logo{
+    .header-logo {
         position: absolute;
         left: 150px;
     }
 
-    .header-btnLogin{
+    .header-btnLogin {
         position: absolute;
         right: 150px;
     }
 
-    .header-input{
+    .header-input {
         position: absolute;
         left: 25%;
         display: block;
@@ -128,12 +130,12 @@
         color: var(cor-cinza-baby);
     }
 
-    .header-btnSearch{
+    .header-btnSearch {
         position: absolute;
         left: 35%;
     }
 
-    .header-input{
+    .header-input {
         display: block;
     }
 }
