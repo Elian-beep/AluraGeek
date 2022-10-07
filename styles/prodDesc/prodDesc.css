@@ -35,7 +35,42 @@
 
 .produtoDesc-text {
     font-size: 14px;
-    line-height: 16px;
+    font-weight: 400;
     color: var(--cor-cinza-default);
     text-align: justify;
+}
+
+@media screen and (min-width: 481px) {
+    .area-produtoDesc {
+        display: flex;
+        padding: 32px;
+        box-sizing: border-box;
+    }
+
+    .produtoDesc-img {
+        width: 254px;
+        height: 157px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .area-produtoDesc {
+        padding: 64px 156px;
+        align-items: center;
+    }
+
+    .produtoDesc-img {
+        width: 560px;
+        height: 400px;
+        gap: 16px;
+    }
+
+    .produtoDesc-title {
+        font-weight: 500;
+        font-size: 52px;
+    }
+
+    .produtoDesc-text{
+        font-size: 14px;
+    }
 }
