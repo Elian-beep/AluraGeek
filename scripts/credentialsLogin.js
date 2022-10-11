@@ -1,9 +1,9 @@
 let listaCredenciais = [];
 
-recuperarLista();
+checarExistenciaLista();
 
 //------------------------------FUNÇÃO PARA RECUPERAR OS DADOS DA LISTA
-function recuperarLista() {
+function checarExistenciaLista() {
     let listaUsers = localStorage.getItem('listUsers'); //Recupera as informações salvas no local storage do navgeador
     if (!listaUsers) { //Se não houer items para serem recuperados
         console.log("Users not found");
